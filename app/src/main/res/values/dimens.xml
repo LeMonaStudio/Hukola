@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TextSizes-->
+    <dimen name="slider_heading_text">32sp</dimen>
+    <dimen name="slider_sub_heading_text">18sp</dimen>
+    <dimen name="app_name_brand_text">32sp</dimen>
+    <dimen name="welcome_user_text">32sp</dimen>
+    
+    <!--Padding and Margins-->
+    <dimen name="divider_padding">2dp</dimen>
+    <dimen name="four_dp">4dp</dimen>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="sixteen_dp">16dp</dimen>
+    <dimen name="twenty_four_dp">24dp</dimen>
+    <dimen name="thirty_two_dp">32dp</dimen>
+
+    <!--font sizes-->
+    <dimen name="sixteen_sp">16sp</dimen>
+    <dimen name="twenty_four_sp">24sp</dimen>
+    <dimen name="thirty_two_sp">32sp</dimen>
+
+</resources>

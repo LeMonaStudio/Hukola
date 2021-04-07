@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Hukola</string>
+
+    <string name="slide_title_one">Real-Time \nspeech quality \ntracking</string>
+    <string name="slide_info_one">Hukola let\'s you know when you \nspeak too fast or slow, your \neloquence,
+        confidence level, \nstutter-rate etc.
+    </string>
+    <string name="slide_title_two">Instant notification \nfor chosen \nwords or phrases</string>
+    <string name="slide_info_two">Get instant buzz when you say a word \nor phrase you\'ll rather not say, so
+        \nyou can respectfully retract and get \non with your speech
+    </string>
+    <string name="slide_title_three">Track daily speech \nquality improvement</string>
+    <string name="slide_info_three">Get stats on quality of your daily \nconversations, presentations, \nspeech
+        etc. and pinpoint \nweakness and strengths.
+    </string>
+    <string name="slide_title_four">Securely save all \nsessions for later</string>
+    <string name="slide_info_four">Securely save all conversations, \nanswers, conference speech etc. \nfor
+        reference or later use
+    </string>
+    <string name="slide_title_five">And so much more</string>
+    <string name="slide_info_five">Hukola has a lot of other features to \nhelp improve the quality of your
+        \nspeech, either for a real-time \nconversation or for a written \nspeech.
+    </string>
+    <string name="slide_title_six">Feeling excited? \nGo for a spin!</string>
+
+    <!--Home Screen Actions Text -->
+    <string name="user_progress">Progress</string>
+    <string name="user_active_sessions">Active\nSessions</string>
+    <string name="user_archive">Archive</string>
+    <string name="user_favorite_sessions">Favorite\nSessions</string>
+    <string name="welcome_text">Hi, Tracy.</string>
+    <string name="about_btn">About</string>
+    <string name="credits_btn">Credits</string>
+    <string name="whats_next_btn">What\'s Next</string>
+    <string name="settings_btn_description">Settings</string>
+
+
+    <!--Record Screen -->
+    <string name="record_screen_title">Record</string>
+    <string name="timer_duration">%1$s:%2$s:%3$s</string>
+
+
+    <string name="continue_btn">Continue</string>
+    <string name="slider_indicator_content_description">Slide Indicator</string>
+
+
+</resources>

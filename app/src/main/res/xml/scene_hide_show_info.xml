@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--TODO: Define Transition -->
+    <Transition app:constraintSetStart="@id/start"
+                app:constraintSetEnd="@id/end"
+                app:duration="1000">
+
+        <!--TODO: OnClick Action -->
+        <OnClick app:targetId="@id/hide_show_info_btn"
+                 app:clickAction="toggle"/>
+    </Transition>
+
+
+    <!--TODO: Define @id/start -->
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+                android:id="@+id/more_info_items"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+        />
+        <Constraint
+                android:id="@+id/hide_show_info_btn"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/more_info_items"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+        />
+    </ConstraintSet>
+
+
+    <!--TODO: Define @id/end -->
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+                android:id="@+id/more_info_items"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+        />
+        <Constraint
+                android:id="@+id/hide_show_info_btn"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/more_info_items"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+        />
+    </ConstraintSet>
+</MotionScene>

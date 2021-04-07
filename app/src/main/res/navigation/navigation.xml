@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/navigation" app:startDestination="@id/loginFragment">
+
+    <fragment android:id="@+id/loginFragment" android:name="com.nativecitizens.hukola.login.LoginFragment"
+              android:label="fragment_login" tools:layout="@layout/fragment_login">
+        <action android:id="@+id/action_loginFragment_to_introSliderFragment"
+                app:destination="@id/introSliderFragment"/>
+    </fragment>
+
+    <fragment android:id="@+id/introSliderFragment"
+              android:name="com.nativecitizens.hukola.introslider.IntroSliderFragment"
+              android:label="fragment_intro_slider"
+              tools:layout="@layout/fragment_intro_slider">
+        <action android:id="@+id/action_introSliderFragment_to_homeScreenFragment"
+                app:destination="@id/homeScreenFragment"/>
+    </fragment>
+
+    <fragment android:id="@+id/homeScreenFragment" android:name="com.nativecitizens.hukola.home.HomeScreenFragment"
+              android:label="fragment_home_screen" tools:layout="@layout/fragment_home_screen"/>
+
+</navigation>

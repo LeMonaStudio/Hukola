@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpeedView">
+        <attr name="min" format="integer"/>
+        <attr name="max" format="integer"/>
+        <attr name="currentSpeed" format="float"/>
+        <attr name="drawColor" format="color"/>
+        <attr name="speedIndicatorStrokeWidth" format="dimension"/>
+        <attr name="speedBackgroundStrokeWidth" format="dimension"/>
+    </declare-styleable>
+</resources>
